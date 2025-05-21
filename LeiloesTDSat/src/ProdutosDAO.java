@@ -94,7 +94,7 @@ public class ProdutosDAO {
     
     public ArrayList<ProdutosDTO> listarProdutosVendidos(){
         ArrayList<ProdutosDTO> vendidos = new ArrayList<>();
-        String sql = "SELECT * FROM produtos WHERE status = Vendido";
+        String sql = "SELECT * FROM produtos WHERE status = 'Vendido'";
         try{
             conn = new conectaDAO().connectDB();
             prep = conn.prepareStatement(sql);

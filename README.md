@@ -2,7 +2,7 @@
 
 ## Descrição do projeto 🔍
 Este projeto se trata-se de um sistema integrado com banco de dados, onde será guardando as informações dos produtos que serão leiloados, como nome, preço é status do produto sé já foi arrematado ou não.
-E informações como Nome do comprador e valor pago.
+
 
 
 

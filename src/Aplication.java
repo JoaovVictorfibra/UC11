@@ -11,5 +11,7 @@ public class Aplication {
     public static void main(String[] args) {
         cadastroVIEW inicial = new cadastroVIEW();
         inicial.setVisible(true);
+        //asdad
+        
     }
 }
